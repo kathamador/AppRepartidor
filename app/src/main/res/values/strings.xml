@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AppRepartidor</string>
+    <string name="home">Home</string>
+    <string name="productos">Productos</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="chat">Chat</string>
+    <string name="empleado">Empleado</string>
+    <string name="buscar_categoria">Buscar Categoría</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="carnes">Carnes</string>
+    <string name="lacteos">Lácteos</string>
+    <string name="para_bebes">Para Bebés</string>
+    <string name="frutas_verduras">Frutas y Verduras</string>
+    <string name="search_customers">Search Customers</string>
+    <string name="coca_cola_1_5l_pet">COCA-COLA 1.5L PET</string>
+    <string name="l_32_00">L.32.00</string>
+    <string name="sprite_2l_pet">SPRITE 2L PET</string>
+    <string name="l_50_00">L.50.00</string>
+    <string name="aguazul_1_5l_pet">AGUAZUL 1.5L PET</string>
+    <string name="l_30_00">L.30.00</string>
+    <string name="jugo_de_naranja_1_5l_pet">JUGO DE NARANJA 1.5L PET</string>
+    <string name="l_38_00">L.38.00</string>
+    <string name="six_pack_corona">SIX PACK CORONA</string>
+    <string name="l_400_00">L.400.00</string>
+    <string name="chuleta_de_cerdo_x_lb">CHULETA DE CERDO X LB</string>
+    <string name="pierna_con_muslo_x_lb">PIERNA CON MUSLO X LB</string>
+    <string name="costilla_de_cerdo_x_lb">COSTILLA DE CERDO X LB</string>
+    <string name="lomo_de_cerdo_x_lb">LOMO DE CERDO X LB</string>
+    <string name="leche_entera_1lt">LECHE ENTERA 1LT</string>
+    <string name="leche_entera_1_lt">LECHE ENTERA 1 LT</string>
+    <string name="title_activity_contenedor_fragment">ContenedorFragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

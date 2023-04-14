@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Quantity"
+    android:layout_width="120dp"
+    android:layout_height="35dp"
+    android:background="@drawable/back">
+
+    <FrameLayout
+        android:layout_width="5dp"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/minus"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back_btns"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                style="?android:attr/borderlessButtonStyle">
+            </Button>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:src="@drawable/ic_minus"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="2dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="12dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_back"
+        android:textColor="@color/black"/>
+    <FrameLayout
+        android:layout_width="2dp"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/plus"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/back_btns"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                style="?android:attr/borderlessButtonStyle">
+            </Button>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:src="@drawable/ic_plus"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
